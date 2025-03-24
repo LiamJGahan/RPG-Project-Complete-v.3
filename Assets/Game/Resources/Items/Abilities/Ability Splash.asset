@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9345f39cc1b587049844078e4b80fbf6, type: 3}
+  m_Name: Ability Splash
+  m_EditorClassIdentifier: 
+  itemID: 715ce81f-8f2f-44eb-a35d-233e2a9bb1e0
+  displayName: Splash
+  description: Cast a mighy splash.
+  icon: {fileID: 21300000, guid: a1ec2c0ddc0da634b85f0f465fec2d0d, type: 3}
+  pickup: {fileID: 503484126249170081, guid: dedb0cc018bfc7244a6c0b3ec4538633, type: 3}
+  stackable: 0
+  itemPrice: 50
+  itemCategory: 5
+  consumable: 0
+  targetingStrategy: {fileID: 11400000, guid: c971aef80c80ca549899b9ae937dd9bc, type: 2}
+  filterStrategies:
+  - {fileID: 11400000, guid: d93c462c7f092854296ca2d40ea924d4, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: c15b6fe5ab5cded4fa21790a134b52d6, type: 2}
+  - {fileID: 11400000, guid: b83f981438eea5b4da2ad00965c7747e, type: 2}
+  - {fileID: 11400000, guid: 80ff3728aedeb664eafd5bad87fce5c9, type: 2}
+  coolDownTime: 2
+  manaCost: 5

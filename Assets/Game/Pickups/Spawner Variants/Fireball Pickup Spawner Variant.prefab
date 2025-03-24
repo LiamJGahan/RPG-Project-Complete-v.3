@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3238325109384098687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3317481914773439681, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 5052eaa2-c9a0-4b4b-b5bc-87b9f1fa0033
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995109945477074760, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 57b2b88d570e6da478526625251e29fe, type: 2}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.0747
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 51.395885
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.049925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365782346695511288, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_Name
+      value: Fireball Pickup Spawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be87eb74adef77c4aaff5278a3704462, type: 3}

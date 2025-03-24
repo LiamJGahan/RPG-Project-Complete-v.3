@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8395028017193901964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3317481914773439681, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: uniqueIdentifier
+      value: 99eea5ac-b9cd-43e5-82b2-9aa7912d04aa
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995109945477074760, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: a0af730bb0c3b894dbfe7e948023215a, type: 2}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.129354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 51.395885
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.924099
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834495400810274162, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365782346695511288, guid: be87eb74adef77c4aaff5278a3704462, type: 3}
+      propertyPath: m_Name
+      value: Unarmed Pickup Spawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be87eb74adef77c4aaff5278a3704462, type: 3}

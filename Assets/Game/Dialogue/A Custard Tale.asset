@@ -1,0 +1,339 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6097515261047687397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 86140f75-36ac-4d45-830e-127aa67423ab
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: My Saviour!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 592
+    y: 425
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: QuestComplete
+  condition:
+    and: []
+--- !u!114 &-4756913292263477855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: ba93a22a-424a-46fb-84b8-53d184519d9b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Just a man with lumpy custard..
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 592
+    y: 118
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItemEquiped
+        parameters:
+        - 4a615484-81c6-4fc1-8ce7-f5b93d666839
+        negate: 0
+--- !u!114 &-4543828729850721747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: adecc2ae-076b-4552-bcfc-a0a75decf84a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Who are you again?
+  children:
+  - ba93a22a-424a-46fb-84b8-53d184519d9b
+  - 564084d5-4c2f-4921-9dee-64191e2a15ca
+  rect:
+    serializedVersion: 2
+    x: 337
+    y: 177
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4434112109714128060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: d8b75d75-1c49-481a-ae73-142bbd6d91a7
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: A tragedy! How can I assist
+  children:
+  - 813451be-a69e-494b-a5bb-1bdc8940eaf1
+  rect:
+    serializedVersion: 2
+    x: 339
+    y: 304
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Fetch Me EGGS! 1
+        negate: 1
+--- !u!114 &-2357846488695278176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 905c3d7b-5aea-4429-85d5-232a8a3ab768
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: My custard is lumpy...
+  children:
+  - e7096ac6-37f6-4e11-b97d-ccf0120909c6
+  - d8b75d75-1c49-481a-ae73-142bbd6d91a7
+  - adecc2ae-076b-4552-bcfc-a0a75decf84a
+  - 0aa59fa3-2bdb-490c-a064-1c12c66a5ef6
+  rect:
+    serializedVersion: 2
+    x: 43
+    y: 180
+    width: 200
+    height: 100
+  onEnterAction: Test route entry
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1374165653892810616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 8ed0339d-cbaa-4fa4-82de-464b98c08902
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 851
+    y: 102
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f7236d87635344fa68852178782a19, type: 3}
+  m_Name: A Custard Tale
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: -2357846488695278176}
+  - {fileID: 2111815503842233744}
+  - {fileID: -4434112109714128060}
+  - {fileID: 646548230082873712}
+  - {fileID: -4543828729850721747}
+  - {fileID: -4756913292263477855}
+  - {fileID: 376764605246995391}
+  - {fileID: -6097515261047687397}
+  - {fileID: 5835348601865066071}
+--- !u!114 &376764605246995391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 0aa59fa3-2bdb-490c-a064-1c12c66a5ef6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I have those eggs you needed.
+  children:
+  - 86140f75-36ac-4d45-830e-127aa67423ab
+  rect:
+    serializedVersion: 2
+    x: 342
+    y: 425
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Fetch Me EGGS! 1
+        negate: 0
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 73118f4a-8fb5-4fb7-8fa4-b1e8196b8fb7
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Fetch Me EGGS! 1
+        negate: 1
+--- !u!114 &646548230082873712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 813451be-a69e-494b-a5bb-1bdc8940eaf1
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Fetch me 12 eggs please! I need to remake it. Oh, and also kill Bojango for
+    ruining the first bowl.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 594
+    y: 227
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &2111815503842233744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: e7096ac6-37f6-4e11-b97d-ccf0120909c6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: To bad...
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 327
+    y: 46
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+  condition:
+    and: []
+--- !u!114 &2992349280870567218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 694f147d-c7d7-4c78-a0ee-b29d873a9255
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 851
+    y: 102
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5835348601865066071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af21450cd4632c743b80addf0c2cd2aa, type: 3}
+  m_Name: 564084d5-4c2f-4921-9dee-64191e2a15ca
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Nothing to you, Boy!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 590
+    y: 28
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasItemEquiped
+        parameters:
+        - 4a615484-81c6-4fc1-8ce7-f5b93d666839
+        negate: 1

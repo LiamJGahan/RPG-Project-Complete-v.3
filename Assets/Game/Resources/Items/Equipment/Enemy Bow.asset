@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be96f52ff1ce2546a1ba8143c7a6914, type: 3}
+  m_Name: Enemy Bow
+  m_EditorClassIdentifier: 
+  itemID: 0a189791-158f-446d-9f0b-d7daa5e14146
+  displayName: Enemy Bow
+  description: Draw your weapon.
+  icon: {fileID: 21300000, guid: d19901b0ee3c38743a7d383bd484b0b5, type: 3}
+  pickup: {fileID: 450077681504228888, guid: 67a2837d83e317f4b97abdbd38f83e09, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  weaponRange: 20
+  weaponDamage: 0
+  percentageBonus: 0
+  AnimatorOverride: {fileID: 22100000, guid: 7a18de69b9f85fd40ac30c26ec8461df, type: 2}
+  equippedPrefab: {fileID: -473103862849504056, guid: 11a8f20e443f05c4991ab2c0fc6a2ec1, type: 3}
+  isRightHanded: 0
+  projectile: {fileID: 2260209707363231361, guid: d6c75524c888be64cb1eaa9c99b2539a, type: 3}

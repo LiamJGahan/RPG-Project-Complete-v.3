@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4839222597012566625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -431351423558177139, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: chaseDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759232955877799272, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: dropLibrary.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759232955877799272, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: dropLibrary.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: e6f595d65ddffa642b014a5a31aa15d1, type: 2}
+    - target: {fileID: 2179101192537641526, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: startingLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179101192537641526, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: characterClass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865867904072967764, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876720877363894161, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: b4eb719b9dcba31438ad07be78ae3039, type: 2}
+    - target: {fileID: 4876720877363894161, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: defaultWeaponName
+      value: Enemy Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 5755400298618137903, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
+    - target: {fileID: 5755830820683105694, guid: d639badea67f7064eb906ccbad591210, type: 3}
+      propertyPath: m_Name
+      value: Archer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d639badea67f7064eb906ccbad591210, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddaa451f7061f0640b1694bd9a7c8048, type: 3}
+  m_Name: Fetch Me EGGS! 1
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: 1
+    description: Find The Guard Some Eggs
+    usesCondition: 0
+    completionCondition:
+      and: []
+  - reference: 2
+    description: Kill Bojango
+    usesCondition: 0
+    completionCondition:
+      and: []
+  rewards:
+  - number: 1
+    item: {fileID: 11400000, guid: 1a7ade5fe8a63bc4b9e10eac6b09f78f, type: 2}
+  - number: 3
+    item: {fileID: 11400000, guid: 8a98fd42d7081964d9dd8e297fe49bd5, type: 2}
